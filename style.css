@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.brand
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.list ul li{
+    font-size: 18px;
+}
+.list ul 
+{
+    display: flex;
+    float: right;
+}
+ul li
+{
+    margin-top: -25px;
+    margin-right: 30px;
+    list-style: none;
+    
+}
+.content
+{
+    width: 100%;
+}
+.heading
+{
+    text-align: center;
+}
+.subtitle
+{
+    text-align: center;
+}
+.pic
+{
+    width: 80%;
+  
+  margin-left: 140px;
+}
+.body_content
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    text-align: justify;
+    font-size: 16px;
+}
+.jumbotron
+{
+    width: 80%;
+    margin: auto;
+}
+.icons
+{
+    margin-left: 350px;
+}
+.icons  .fa
+{
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+@media (max-width:900px)
+{
+    .pic
+    {
+        margin-left: 95px;
+    }
+    .icons{
+        margin: auto;
+    }
+    .details
+    {
+        margin: auto;
+        margin-left: 20px;
+    }
+}
+@media (max-width:571px)
+{
+    .brand
+    {
+        margin-bottom: 25px;
+    }
+    .pic
+    {
+        width: 80%;
+        margin-left: 50px;
+    
+    }
+  
+}
+
+
